@@ -2,7 +2,10 @@
 # We've done it for you here.
 require_relative '../config/environment.rb'
 
-# test code goes here
+taevon = Lifter.new("Taevon", 900)
+guy = Lifter.new("GUY", 100)
+planet_fitness = Gym.new("Planet Fitness")
+crunch = Gym.new("Crunch Fitness")
 
 binding.pry
 
